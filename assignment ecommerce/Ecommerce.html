@@ -15,7 +15,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-    <title>Pares G.</title>
     <style>
       .head-container {
         background-color: #820006;
@@ -26,31 +25,15 @@
       .pares {
         color: white;
         text-transform: uppercase;
-        width: 50%;
-        font-size: 80px;
-        font-family: cursive;
       }
       .tagline {
-        margin: 10px;
+        margin: 25px;
         color: wheat;
-        width: 40%;
-        position: absolute;
-        bottom: -15px;
-        left: 20%;
-        font-size: 30px;
       }
 
       .search-bar {
-        top: 10px;
-        width: ;
-      }
-
-      .searchicon {
-        position: absolute;
-        right: 0;
-        padding: 3px;
-        cursor: pointer;
-        margin: 2px 2px;
+        padding-top: 50px;
+        padding-left: 55px;
       }
       .sidenav {
         height: 100%;
@@ -110,37 +93,37 @@
         font-weight: bold;
         padding: 7px 15px;
         position: absolute;
-        top: 10px;
+        top:10px;
         right: 0;
       }
     </style>
+
+    <title>ResPa</title>
   </head>
   <body>
     <div class="d-flex head-container">
-      <p class="pares px-3">Pares galaxy</p>
-      <p class="tagline">Sabaw palang Ulam na!</p>
+      <p class="pares px-3 display-1">Pares galaxy</p>
+      <p class="tagline display-4 m-4">Sabaw palang Ulam na!</p>
       <div class="search-bar">
-        <input class="form-group" placeholder="Search" type="text" />
-        <button class="fa fa-search searchicon" aria-hidden="true"></button>
+        <input class="form-group" placeholder="Search product here..." />
+        <button>Search</button>
       </div>
     </div>
 
-    <div>
-      <div class="sidenav">
-        <div class="container pt-2">
-          <h3 style="color: rgb(213, 213, 213)">Filter by:</h3>
-          <ul class="list">
-            <li><input type="checkbox" /> Price</li>
-            <li><input type="checkbox" /> Best Selling</li>
-            <li><input type="checkbox" /> Extras</li>
-          </ul>
-        </div>
+    <div class="sidenav">
+      <div class="container pt-2">
+        <h3 style="color: rgb(213, 213, 213)">Filter by:</h3>
+        <ul class="list">
+          <li><input type="checkbox" /> Price</li>
+          <li><input type="checkbox" /> Best Selling</li>
+          <li><input type="checkbox" /> Extras</li>
+        </ul>
       </div>
     </div>
 
     <div class="divcontainer">
       <div class="container">
-        <div class="row p-3">
+        <div class="row py-2">
           <div class="col">
             <div class="card">
               <img class="imgattrb" src="/AngusBeefPares.webp" alt="" />
@@ -153,7 +136,7 @@
                 <p class="bestseller">
                   BEST SELLER <i class="fa fa-thumbs-o-up"></i>
                 </p>
-                <p class="discount">10% OFF</p>
+                <p class="discount">10% OFF</i></p>
 
                 <div class="d-flex justify-content-between">
                   <div class="align-self-start">
@@ -242,7 +225,7 @@
             </div>
           </div>
         </div>
-        <div class="row p-3">
+        <div class="row py-2">
           <div class="col">
             <div class="card">
               <img class="imgattrb" src="/AngusBeefSisig.webp" alt="" />
@@ -254,8 +237,8 @@
                 </p>
                 <p class="bestseller">
                   BEST SELLER <i class="fa fa-thumbs-o-up"></i>
-                </p>
-                <p class="discount">10% OFF</p>
+                </p> 
+                <p class="discount">10% OFF</i></p>
 
                 <div class="d-flex justify-content-between">
                   <div class="align-self-start">
@@ -345,6 +328,6 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> 
   </body>
 </html>
